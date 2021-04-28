@@ -1,0 +1,14 @@
+@import '@carbon/themes/scss/themes';
+
+$carbon--theme: $carbon--theme--g100;
+
+@include carbon--theme();
+
+@import 'carbon-components/scss/globals/scss/styles';
+@import '@carbon/type/scss/type';
+@import '@carbon/type/scss/styles';
+
+// Reset types.
+@include carbon--type-reset();
+@include carbon--font-face-mono();
+@include carbon--font-face-sans();

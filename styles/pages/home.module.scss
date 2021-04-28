@@ -1,0 +1,5 @@
+@import "@carbon/type/scss/styles";
+
+.title {
+    @include carbon--type-style('productive-heading-05');
+}
